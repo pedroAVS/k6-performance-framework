@@ -1,0 +1,16 @@
+{
+    "name": "k6-performance",
+    "version": "1.0.0",
+    "description": "To run the tests locally use: ``` k6 run ./scripts/100.users.service.js ``` To build the image and run through docker, use: ``` docker build -t test . docker run test run ./scripts/100.users.service.js ```",
+    "main": "index.js",
+    "scripts": {
+    },
+    "repository": {
+        "type": "git"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "newman": "^5.2.2"
+    }
+}
